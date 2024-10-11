@@ -3,11 +3,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df_changping = pd.read_csv("changping_data.csv")
+df_changping = pd.read_csv("dashboard/changping_data.csv")
 df_changping['date_time'] = pd.to_datetime(df_changping[['year', 'month', 'day', 'hour']])
 
 st.title('Air Quality Analysis Dashboard: Changping City')
-st.image("polusi.jpeg")
+st.image("dashboard/polusi.jpeg")
 st.write('This dashboard is used to visualize pre-determined answers regarding the air quality conditions in Changping city.')
 
 st.markdown("""
