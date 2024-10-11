@@ -9,8 +9,8 @@ pip install -r requirements.txt
 
 ## Setup Environment - Shell/Terminal
 ```
-mkdir Admission
-cd Adimission
+mkdir admission
+cd admission
 pipenv install
 pipenv shell
 pip install -r requirements.txt
